@@ -1,0 +1,90 @@
+@import url(<link rel="stylesheet" href="https://use.typekit.net/bed6thk.css">);
+
+@font-face {
+		font-family: 'Helvetica Neue';
+		src: url('fonts/HelveticaNeue.ttc') format('ttc')
+		font-weight: normal;
+    	font-style: normal;
+}
+
+section span.first_letter{
+    text-transform:capitalize;
+/*    font-size: 500%;
+*/    font-weight: bold;
+    display: block;
+    float: left;
+    margin-right: 5pt;
+    font-family: 'Helvetica Neue', sans-serif;
+/*	font-weight: 300;*/
+	font-size: 3.328em;
+	line-height: 0.877em;
+}
+
+h1 {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 400;
+	font-size: 5.325em;
+	line-height: 1.6em;
+}
+
+h2 {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 400;
+	font-size: 2.08em;
+	line-height: 1.6em;
+}
+
+h3 {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 600;
+	font-size: 1.3em;
+	line-height: 1.6em;
+}
+
+p {
+	font-family: 'EB Garamond', serif;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.6em;
+}
+
+aside {
+	font-family: 'EB Garamond', serif;
+	font-weight: 200;
+	font-size: 0.625em;
+	line-height: 1.6em;
+	text-align: right;
+}
+
+p.deck {
+	font-weight: bold;
+}
+
+
+@media (max-width: 340px) {
+
+h1 {
+	font-size: 2.56em;
+}
+
+h2 {
+	font-size: 1.309em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

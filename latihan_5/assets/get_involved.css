@@ -1,0 +1,266 @@
+@font-face {
+		font-family: 'MADE TOMMY';
+		src: url('MADE TOMMY Bold_PERSONAL USE.otf') format('otf')
+		font-weight: bold;
+    	font-style: normal;
+  }
+
+@font-face {
+		font-family: 'MADE TOMMY';
+		src: url('MADETOMMYMedium_PERSONALUSE.otf') format('otf')
+		font-weight: bold;
+    	font-style: normal;
+  }
+
+header {
+	width: 100%;
+	height: 101.25px;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #D5CDBA 93.75%), #E3F3F3;
+	display: flex;
+  	justify-content: center;
+	position: sticky;
+  	top: 0;
+}
+
+img.wwd {	
+	float: left;
+	width: 172px;
+	height: 78px;
+	left: 150px;
+	/*top: 12px;*/
+	margin-right: 50px;
+}
+
+button.menuButton{
+	/*width: 82px;*/
+	/*height: 3.93px;*/
+	left: 414px;
+	/*top: 34.79px;*/
+
+	font-family: MADE TOMMY;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25.5px;
+	line-height: 32px;
+	text-transform: uppercase;
+	color: #3C653E;
+	margin-left: 30px;
+	border: none;
+	background-color: transparent;
+}
+
+h4.partner {
+	width: 375px;
+	height: 89px;
+	left: 653px;
+	top: 3993px;
+	font-family: MADE TOMMY;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25.65px;
+	line-height: 32px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #949584;
+	margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+}
+
+td.footer1 {
+	padding-right: 250px;
+}
+
+td.footer3 {
+	padding-left: 250px;
+}
+
+a.footerLink{
+	width: 240px;
+	height: 174px;
+	left: 152px;
+	top: 4133px;
+	font-family: Brandon Grotesque;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 45px;
+	/* or 225% */
+	text-transform: uppercase;
+	color: #000000;
+	/*margin-right: 150px;*/
+}
+
+img.logoWwf{
+	height: 125px;
+	border-radius: 30px;
+	margin-right: 70px;
+}
+
+img.logoUndp{
+	height: 125px;
+	margin-right: 70px;
+}
+
+img.logoSos{
+	height: 75px;
+	margin-bottom: 20px;
+}
+
+h5.searchName{
+	width: 127px;
+	height: 10px;
+	font-family: MADE TOMMY;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: capitalize;
+	color: #949584;
+}
+
+button.subscribe {
+  float: right;
+  padding: 6px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+h5.footer{
+	font-family: Brandon Grotesque;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #757575;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+footer {
+	 background-image: url("footer_1.jpg");
+	 background-size: cover;
+	 padding-top: 50px;
+	 width: 100%;
+	 padding-bottom: 30px; 
+	 margin: 0px 0px 0px;
+	 left:0;
+	 right:0;
+	 bottom:0;
+}
+
+img.mountain{
+	width: 79px;
+	height: 63px;
+	left: 801px;
+	top: 3367px;
+	opacity: 0.5;
+	margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+  	/*margin-top: 200px;*/
+}
+
+h2.subHead {
+	width: 753px;
+	height: 61px;
+	left: 463px;
+	top: 2168px;
+	font-family: MADE TOMMY;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 38.25px;
+	line-height: 48px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #3C653E;
+	margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+  	margin-bottom: 10vh;
+}
+
+
+
+
+
+p.article {
+	font-family: Brandon Grotesque;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	text-transform: capitalize;
+	color: #000000;
+}
+
+h4.quotes {
+	font-family: Brandon Grotesque;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	letter-spacing: -0.025em;
+	text-transform: capitalize;
+	color: #000000;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background: linear-gradient(180deg, #EBF2F5 0%, rgba(255, 255, 255, 0) 60.49%), #ABD1E3;
+	box-shadow: 3px 7px 20px rgba(0, 0, 0, 0.2);
+	border-radius: 40px 40px 40px 40px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/* td.tabContent { */
+	/* width: 30px; */
+/* } */
+
+tr.openingLast {
+	font-family: Brandon Grotesque;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #000000;
+}
+
+td.contentLast {
+	font-family: Brandon Grotesque;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	text-transform: capitalize;
+	color: #415842;
+}
+
+body {
+	background-image: url("about_about.jpg");
+	background-size: cover;
+}
+
+/*table, th, td {
+ 	border: 1px solid black;
+}*/
+
+table.footer {
+	display: flex;
+ 	justify-content: center;
+}
+
+table.content {
+	table-layout: fixed
+}
+
+img.wideImage {
+	width: 95%;
+}

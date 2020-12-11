@@ -1,0 +1,266 @@
+@font-face {
+		font-family: 'MADE TOMMY';
+		src: url('MADE TOMMY Bold_PERSONAL USE.otf') format('otf')
+		font-weight: bold;
+    	font-style: normal;
+  }
+
+@font-face {
+		font-family: 'MADE TOMMY';
+		src: url('MADETOMMYMedium_PERSONALUSE.otf') format('otf')
+		font-weight: bold;
+    	font-style: normal;
+  }
+  
+header.about {
+	/*margin-top: 0;*/
+	width: 1680px;
+	height: 101.25px;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #D5CDBA 93.75%), #E3F3F3;
+	display: flex;
+	position: sticky;
+  	top: 0;
+  	justify-content: center;
+}
+
+img.arrowVector  {
+	width: 30px;
+	height: 50px;
+	margin-right: 300px;
+	margin-top: 20px;
+}
+
+h3.backgroundText {
+	width: 410px;
+	height: 23px;
+	font-family: MADE TOMMY;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25.5px;
+	line-height: 32px;
+	text-align: center;
+	text-transform: uppercase;
+	color: rgba(71, 143, 69, 0.5);
+}
+
+img.wwd {	
+	float: left;
+	width: 172px;
+	height: 78px;
+	left: 150px;
+	margin-right: 50px;
+	margin-left: 200px;
+}
+
+img.mountainVector {
+	width: 79px;
+	height: 63px;
+	opacity: 0.5;
+	margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+  	margin-top: 60px;
+}
+
+body.about {
+	background-image: url("about_about.jpg");
+	background-size: cover;
+}
+
+h2.subHead {
+	width: 753px;
+	height: 61px;
+	font-family: MADE TOMMY;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 38.25px;
+	line-height: 48px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #3C653E;
+	margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+  	margin-bottom: 10vh;
+}
+
+
+footer {
+	 background-image: url("footer_1.jpg");
+	 background-size: cover;
+	 padding-top: 50px;
+	 width: 100%;
+	 padding-bottom: 30px; 
+	 margin: 0px 0px 0px;
+}
+
+h4.partner {
+	width: 375px;
+	height: 89px;
+	font-family: MADE TOMMY;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25.65px;
+	line-height: 32px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #949584;
+	margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+}
+
+a.footerLink{
+	width: 240px;
+	height: 174px;
+	font-family: Brandon Grotesque;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 45px;
+	/* or 225% */
+	text-transform: uppercase;
+	color: #000000;
+	/*margin-right: 150px;*/
+}
+
+img.logoWwf{
+	height: 125px;
+	border-radius: 30px;
+	margin-right: 70px;
+}
+
+img.logoUndp{
+	height: 125px;
+	margin-right: 70px;
+}
+
+img.logoSos{
+	height: 75px;
+	margin-bottom: 20px;
+}
+
+td.footer1 {
+	padding-right: 250px;
+}
+
+td.footer3 {
+	padding-left: 250px;
+}
+
+h5.searchName{
+	width: 127px;
+	height: 10px;
+	font-family: MADE TOMMY;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	text-transform: capitalize;
+	color: #949584;
+}
+
+button.subscribe {
+  float: right;
+  padding: 6px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+
+table.footer {
+	display: flex;
+ 	justify-content: center;
+}
+
+h5.footer{
+	font-family: Brandon Grotesque;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #757575;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+/* table, th, td { */
+ 	/* border: 1px solid black; */
+/* } */
+
+img.sustainingPhoto {
+	width: 654px;
+	height: 520px;
+	border-radius: 20px;
+}
+
+img.animalPhoto {
+	width: 652px;
+	height: 573px;
+	border-radius: 20px;
+}
+
+p.article {
+	width: 654px;
+	/* height: 222px; */
+	font-family: Brandon Grotesque;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 30px;
+	/* /* or 150% */ */
+	text-transform: capitalize;
+	color: #000000;
+	margin-left: 60px;
+}
+
+td.tableArticle {
+  	width: 100%;
+}
+
+table.tableArticle {
+	margin-bottom: 20vh;
+	justify-content: center;
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

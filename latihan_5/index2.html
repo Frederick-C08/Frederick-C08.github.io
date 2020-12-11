@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>World Wildlife Day</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' href='assets/global2.css'>
+  <script src="script2.js"></script>
+  <link rel="stylesheet" href="https://use.typekit.net/fng4xld.css">
+</head>
+<body onload="loadBody()">
+	<header class='myHeader' id='myHeader'>
+		<img src='assets/wwd.png' class='wwd' onclick='navToHome()'>
+		<section class='navSection' id='navSection' onload="loadNavButton()">
+			<img src=''>
+			<button type="button" class='menuButton' id='menuButton' onclick='navToHome()'>HOME</button>
+			<button type="button" class='menuButton' id='menuButton' onclick='navToGetInvolved()'>GET INVOLVED</button>
+			<button type="button" class='menuButton'id='menuButton'>EVENTS</button>
+			<button type="button" class='menuButton'id='menuButton'>MATERIAL </button>
+			<button type="button" class='menuButton'id='menuButton'>FILM FESTIVAL</button>
+			<button type="button" class='menuButton'id='menuButton'>MESSAGES</button>
+			<button type="button" class='menuButton'id='menuButton'>MEDIA</button>
+		</section>
+		<section  class='burgerButton' id='burgerButton'>
+			<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+			  	<button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+				 <a href="#" class="w3-bar-item w3-button">Link 1</a>
+				 <a href="#" class="w3-bar-item w3-button">Link 2</a>
+				 <a href="#" class="w3-bar-item w3-button">Link 3</a>
+			</div>
+
+<button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
+		</section>
+	</header>
+</body>
+</html>
